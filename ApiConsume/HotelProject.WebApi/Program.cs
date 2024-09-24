@@ -5,8 +5,11 @@ using HotelProject.DataAccessLayer.Concrete;
 using HotelProject.DataAccessLayer.EntityFramework;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddHttpClient();
 
+var app = builder.Build();
 // Add services to the container.
+builder.Services.AddControllersWithViews();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -31,7 +34,18 @@ builder.Services.AddScoped<ITestimonialDal,EfTestimonialDal>();
 builder.Services.AddScoped<ITestimonialService, TestimonialManager>();
 //my codes end
 
-var app = builder.Build();
+builder.Services.AddCors(opt =>
+{
+    opt.AddPolicy("OtelApiCors", opts =>
+    {
+        opts.AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
+
+
+app.UseCors("OtelApiCors");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

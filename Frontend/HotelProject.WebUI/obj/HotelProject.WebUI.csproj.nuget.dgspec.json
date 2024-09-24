@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sevva\\source\\repos\\MyUdemyProject\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj": {}
+    "C:\\Users\\sevva\\MyUdemyProject\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sevva\\source\\repos\\MyUdemyProject\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj": {
+    "C:\\Users\\sevva\\MyUdemyProject\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sevva\\source\\repos\\MyUdemyProject\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj",
+        "projectUniqueName": "C:\\Users\\sevva\\MyUdemyProject\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj",
         "projectName": "HotelProject.WebUI",
-        "projectPath": "C:\\Users\\sevva\\source\\repos\\MyUdemyProject\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj",
+        "projectPath": "C:\\Users\\sevva\\MyUdemyProject\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj",
         "packagesPath": "C:\\Users\\sevva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sevva\\source\\repos\\MyUdemyProject\\Frontend\\HotelProject.WebUI\\obj\\",
+        "outputPath": "C:\\Users\\sevva\\MyUdemyProject\\Frontend\\HotelProject.WebUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,6 +69,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.18, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.17, )"
             }
           },
           "imports": [

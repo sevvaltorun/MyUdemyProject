@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sevva\\source\\repos\\MyUdemyProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj": {}
+    "C:\\Users\\sevva\\MyUdemyProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sevva\\source\\repos\\MyUdemyProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj": {
+    "C:\\Users\\sevva\\MyUdemyProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sevva\\source\\repos\\MyUdemyProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\sevva\\MyUdemyProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj",
         "projectName": "HotelProject.EntityLayer",
-        "projectPath": "C:\\Users\\sevva\\source\\repos\\MyUdemyProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj",
+        "projectPath": "C:\\Users\\sevva\\MyUdemyProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj",
         "packagesPath": "C:\\Users\\sevva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sevva\\source\\repos\\MyUdemyProject\\ApiConsume\\HotelProject.EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\sevva\\MyUdemyProject\\ApiConsume\\HotelProject.EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

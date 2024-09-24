@@ -16,7 +16,13 @@
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "room",
+        "Type": "HotelProject.EntityLayer.Concrete.Room",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -26,7 +32,13 @@
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -36,7 +48,13 @@
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "room",
+        "Type": "HotelProject.EntityLayer.Concrete.Room",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -49,7 +67,7 @@
     "Parameters": [
       {
         "Name": "id",
-        "Type": "",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
